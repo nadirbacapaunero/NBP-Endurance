@@ -1,0 +1,19 @@
+window.addEventListener('load', function(){
+    new Glider (document.querySelector('.carousel__lista'),{
+     
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        draggable: true,
+        dots:'.dots',
+        arrows: {
+            prev:'.glider-prev',
+            next:'.glider-next'
+        } 
+    });
+  
+});
+
+
+        
+
+   
